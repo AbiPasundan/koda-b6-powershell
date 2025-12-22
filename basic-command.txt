@@ -31,4 +31,5 @@ menampilkan semua history command yang pernah dijalankan
 11. systeminfo
 menampilkan informasi dan spesifikasi laptop
 
-12. 
+12. Get-Process
+Menampilkan informasi aplikasi yang sedang berjalan 
