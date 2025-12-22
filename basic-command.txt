@@ -39,3 +39,8 @@ Menampilkan informasi waktu sekarang
 
 14. Get-NetIPAddress
 Menampilkan informasi ip address 
+
+15. Restart-Computer
+Merestart komputer/laptop yang sedang digunakan 
+
+16. 
