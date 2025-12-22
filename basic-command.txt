@@ -33,3 +33,9 @@ menampilkan informasi dan spesifikasi laptop
 
 12. Get-Process
 Menampilkan informasi aplikasi yang sedang berjalan 
+
+13. Get-Date
+Menampilkan informasi waktu sekarang 
+
+14. Get-NetIPAddress
+Menampilkan informasi ip address 
