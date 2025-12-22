@@ -27,3 +27,8 @@ mendownload dan menginstal sistem
 
 10. h
 menampilkan semua history command yang pernah dijalankan 
+
+11. systeminfo
+menampilkan informasi dan spesifikasi laptop
+
+12. 
