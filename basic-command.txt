@@ -1,0 +1,29 @@
+1. Get-Help
+Menampilkan contoh contoh command di powershell
+
+2. mkdir 
+Membuat Folder, dengan cara mkdir diikuti dengan nama folder
+
+3. touch 
+Membuat file, dengan cara touch diikuti dengan nama file dan ekstensinya, contoh: touch index.html
+
+4.  rm 
+menghapus file atau folder 
+
+5. cd 
+mengubah lokasi folder 
+
+6. clear
+menghapus tampilan yang ada di terminal
+
+7. pwd 
+menampilkan path folder 
+
+8.  ls
+menampilkan semua item yang ada di dalam folder
+
+9. winget 
+mendownload dan menginstal sistem 
+
+10. h
+menampilkan semua history command yang pernah dijalankan 
