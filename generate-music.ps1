@@ -1,6 +1,7 @@
 $artist = "Iwan Fals", "Agnes Monica", "Sumbang"
 
 foreach($artists in $artist){
+	# $MusicPath = '.\Music\$artist'
     New-Item -ItemType Directory Music\$artists
     if ($artists -eq "Iwan Fals") {
         New-Item -ItemType File '.\Music\Iwan Fals\Akupun.mp3','.\Music\Iwan Fals\Opini.mp3', '.\Music\Iwan Fals\Suara Hati.mp3', '.\Music\Iwan Fals\Sarjanamuda.mp3', '.\Music\Iwan Fals\Tikus-tikus kantor.mp3'

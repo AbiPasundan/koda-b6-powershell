@@ -1,15 +1,9 @@
-$artisList = Get-ChildItem ".\Music"
+$Musics = Get-ChildItem ./Music/ -file -name
 
-foreach ($a in $artisList) {
-
-    $lagu = Get-ChildItem ".\Music\$($a.Name)"
-
-    foreach ($l in $lagu) {
-
-        $newName = $a.Name + " - " + $l.Name
-
-        Rename-Item ".\Music\$($a.Name)\$($l.Name)" $newName
-        Move-Item ".\Music\$($a.Name)\$newName" ".\Music\"
-
-    }
+foreach($Music in $Musics){
+    $ArtistSong = $Music.split("-")
+    $Artist = $ArtistSong[0]
+    # echo "./music/$lagu ./Music/$artist/$lagu"
+    # New-Item -ItemType Directory "./Music/$artist"
+    Move-Item -Path "./Music/$Music" -destination "./Music/$artist/"
 }
