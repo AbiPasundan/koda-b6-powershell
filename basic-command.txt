@@ -1,35 +1,64 @@
 1. Get-Help
-Menampilkan contoh contoh command di powershell
+Menampilkan dokumentasi dan bantuan untuk cmdlet tertentu.
 
-2. mkdir 
-Membuat Folder, dengan cara mkdir diikuti dengan nama folder
+2. Get-Command
+Menampilkan daftar cmdlet, fungsi, dan alias yang tersedia.
 
-3. touch 
-Membuat file, dengan cara touch diikuti dengan nama file dan ekstensinya, contoh: touch index.html
+3. Get-Process
+Menampilkan daftar proses yang sedang berjalan.
 
-4.  rm 
-menghapus file atau folder 
+4. Stop-Process
+Menghentikan proses yang sedang berjalan.
 
-5. cd 
-mengubah lokasi folder 
+5. Get-Service
+Menampilkan daftar service pada sistem.
 
-6. clear
-menghapus tampilan yang ada di terminal
+6. Start-Service
+Menjalankan service tertentu.
 
-7. pwd 
-menampilkan path folder 
 
-8.  ls
-menampilkan semua item yang ada di dalam folder
+7. Stop-Service
+Menghentikan service tertentu.
 
-9. winget 
-mendownload dan menginstal sistem 
+8. Get-ChildItem
+Menampilkan isi direktori sama dengan ls
 
-10. h
-menampilkan semua history command yang pernah dijalankan 
+9. Set-Location
+Berpindah direktori (setara dengan cd).
 
-11. systeminfo
-menampilkan informasi dan spesifikasi laptop
+10. New-Item
+Membuat file atau folder baru.
+
+11. Remove-Item
+Menghapus file atau folder.
+
+12. Copy-Item
+Menyalin file atau folder.
+
+13. Move-Item
+Memindahkan file atau folder.
+
+14. Rename-Item
+Mengganti nama file atau folder.
+
+
+15. Get-Content
+Menampilkan isi file teks.
+
+16. Set-Content
+Menulis atau mengganti isi file.
+
+17. Add-Content
+Menambahkan isi ke file tanpa menghapus isi lama.
+
+18. Clear-Host
+Membersihkan tampilan terminal.
+
+19. Get-Date
+Menampilkan tanggal dan waktu saat ini.
+
+20. Test-Path
+Mengecek apakah file atau folder ada.
 
 12. Get-Process
 Menampilkan informasi aplikasi yang sedang berjalan 
@@ -42,5 +71,3 @@ Menampilkan informasi ip address
 
 15. Restart-Computer
 Merestart komputer/laptop yang sedang digunakan 
-
-16. 
